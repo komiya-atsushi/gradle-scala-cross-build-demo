@@ -1,5 +1,5 @@
 apply plugin: 'scala'
 
 dependencies {
-    compile group: 'org.scala-lang', name: 'scala-library', version: defaultScalaVersion
+    compile group: 'org.scala-lang', name: 'scala-library', version: scalaVersion
 }
