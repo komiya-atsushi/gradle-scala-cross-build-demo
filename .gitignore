@@ -1,0 +1,13 @@
+### IntelliJ IDEA
+.idea
+
+### Gradle
+.gradle
+build/
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+### Java
+*.class
+hs_err_pid*

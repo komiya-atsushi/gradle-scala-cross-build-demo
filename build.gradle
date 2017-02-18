@@ -1,0 +1,12 @@
+subprojects {
+    group 'biz.k11i'
+    version '1.0-SNAPSHOT'
+
+    repositories {
+        jcenter()
+    }
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.3'
+}

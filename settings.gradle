@@ -1,0 +1,14 @@
+rootProject.name = 'gradle-scala-cross-build'
+
+apply plugin: 'scala-cross-build'
+
+scalaCrossBuild {
+    defaultScalaVersion '2.10.6'
+    targetScalaVersions '2.10.6', '2.11.8'
+    buildDefaultOnly false
+
+    projectsToCrossBuild(
+            'scala-proj-foo',
+            'scala-proj-bar'
+    )
+}
